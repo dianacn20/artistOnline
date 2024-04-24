@@ -1,0 +1,25 @@
+.logo-img {
+    max-width: 100px; /* Setează lățimea maximă a imaginii la 100% pentru a se adapta la container */
+    height: auto; /* Asigură-te că înălțimea se ajustează proporțional cu lățimea */
+    padding: 1px;
+  }
+  
+  @media (max-width: 768px) {
+    .logo-img {
+      width: 90px; /* Redu lățimea imaginii la 80% la micșorarea ecranului sub 768px */
+    }
+  }
+  .nav-container {
+    display: flex; /* Setează afișarea elementelor într-un flex container */
+    justify-content: center; /* Centrează elementele orizontal în container */
+    align-items: center; /* Centrează elementele vertical în container */
+   
+  }
+  
+  @media (max-width: 768px) {
+    .nav-container {
+      justify-content: flex-start; /* Resetarea alinierii la stânga la micșorarea ecranului sub 768px */
+      padding-bottom: 20px;
+    }
+  }
+  

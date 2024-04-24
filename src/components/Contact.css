@@ -1,0 +1,36 @@
+.contact form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: fit-content;
+  margin-top: 20px;
+}
+.contact h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+p{
+    font-size: 24px;
+}
+.contact .error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+    }
+
+.thank-you {
+    text-align: center;
+    margin-top: 20px;
+}
+  

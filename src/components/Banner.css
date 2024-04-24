@@ -1,0 +1,17 @@
+.image-container {
+    position: relative;
+    top: -5%; /* Poți ajusta valoarea negativă aici pentru a ridica mai sus poza */
+    left:15%;
+}
+.image-container img{
+    height: 400px;  
+    width: 350px
+}
+.text-container p{
+    color:rgb(40, 20, 81);
+    font-size: larger;
+}
+.text-container button{
+    padding-bottom: 120px;
+}
+  
